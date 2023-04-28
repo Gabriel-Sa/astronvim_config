@@ -48,6 +48,12 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "rust_analyzer", 
+      "cssls", 
+      "pylsp", 
+      "volar", 
+      "tsserver",
+      "lua_ls"
     },
   },
   -- Configure require("lazy").setup() options
